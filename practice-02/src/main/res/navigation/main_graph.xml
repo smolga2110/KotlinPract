@@ -1,0 +1,5 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_graph" app:startDestination="@id/screen_home">
+ <fragment android:id="@id/screen_home" android:name="ru.mazenin.kotlin.HomeFragment" android:label="Главная"/>
+ <fragment android:id="@id/screen_counter" android:name="ru.mazenin.kotlin.CounterFragment" android:label="Счётчик"/>
+ <fragment android:id="@id/screen_note" android:name="ru.mazenin.kotlin.NoteFragment" android:label="Заметка"/>
+</navigation>

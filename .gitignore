@@ -1,0 +1,13 @@
+# Local configuration, generated files and signing material
+local.properties
+.gradle/
+.kotlin/
+.idea/
+**/build/
+*.iml
+*.apk
+*.aab
+*.jks
+*.keystore
+.DS_Store
+Thumbs.db
