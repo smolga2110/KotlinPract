@@ -46,21 +46,3 @@ Linux/macOS: `chmod +x gradlew`, затем `./gradlew assembleDebug`. На эт
 
 Результаты модулей вынесены в `${java.io.tmpdir}/KotlinPracticesGitHub/prXX`, чтобы избежать проблем Windows с кириллицей. APK находится в `prXX/outputs/apk/debug/`. Можно задать свой абсолютный каталог латиницей через переменную `KOTLIN_BUILD_DIR`. Для разных копий проекта используйте разные каталоги.
 
-## Демонстрация
-
-Инструкции и снимки экрана находятся в README каждой работы. Для 5–6 нужен доступ к DummyJSON; для 7–8 и 10–12 используется HTTPS PNG/JPEG (пример: https://httpbin.org/image/png). Доступность внешних сервисов может меняться. Сохраненные файлы и SQLite доступны без сети. В 4 разрешите камеру
-
-## Как загрузить на GitHub
-
-Создайте пустой репозиторий в своем аккаунте. Загрузите **все содержимое этой папки**, включая Gradle Wrapper, `gradle`, `settings.gradle.kts`, `.gitignore` и 12 папок работ. Не загружайте только отдельную practice-папку: ей нужны общие настройки. Удобнее использовать Git или GitHub Desktop, чтобы сохранить вложенные каталоги и скрытые файлы.
-
-Пример команд (замените OWNER и REPOSITORY своими значениями):
-
-```sh
-git init
-git add .
-git commit -m "Add 12 Kotlin Android practices"
-git branch -M main
-git remote add origin https://github.com/OWNER/REPOSITORY.git
-git push -u origin main
-```
